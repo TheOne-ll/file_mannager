@@ -11,8 +11,8 @@ public class User {
     private String username;
     private String password;
     private String email;
-    private LocalDateTime create_time;
-    private LocalDateTime last_login_time;
-    private LocalDateTime update_time;
+    private LocalDateTime createTime;
+    private LocalDateTime lastLoginTime;
+    private LocalDateTime updateTime;
     private String pic;
 }

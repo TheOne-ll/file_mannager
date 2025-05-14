@@ -6,4 +6,8 @@ public interface UserService {
     User findbyname(String username);
 
     void register(String username, String md5Password);
+
+    void updateLogintime(Integer id);
+
+    void updateemail(String email);
 }
